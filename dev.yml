@@ -1,0 +1,13 @@
+---
+name: paca
+skip_metrics: true
+up:
+  - python: 3.11.3
+  - pip:
+     - requirements.txt
+     - requirements/dev.txt
+  - python_develop
+
+test: pytest .
+watch:
+  tests: ptw tests/

@@ -1,0 +1,9 @@
+black
+flake8
+pytest
+coverage
+pytest-cov
+mypy
+isort
+pytest-watcher
+pytest-testmon
